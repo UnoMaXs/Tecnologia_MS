@@ -1,15 +1,15 @@
 package com.tecnologia_ms.domain.model;
 
-public class Tecnology {
+public class Technology {
 
     private Long id;
     private String name;
     private String description;
 
-    public Tecnology() {
+    public Technology() {
     }
 
-    public Tecnology(Long id, String name, String description) {
+    public Technology(Long id, String name, String description) {
         this.id = id;
         this.name = name;
         this.description = description;
